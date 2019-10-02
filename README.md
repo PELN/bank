@@ -12,12 +12,16 @@ Documentation/Report: [http://peleno.net/portfolio/imgs/Web%20dev.%20exam%202019
 
 ## Detailed description
 
-In the beginning of my web development course, we had to develop a fullstack banking system - where you were able to transfer money between phone numbers and much more. 
+In the beginning of my web development course, we had to develop a fullstack banking system - where you were able to transfer money between phone numbers and much more.  
+
 We build some of the components in class - the first 3 weeks, and then we had 1 week to build extra components for the exam.
-Primarily we have been focusing on making API'S in PHP and connecting them with AJAX in javascript to update the information without reloading the browser. 
-We used a local json file as database for learning purposes of using javascript with objects. 
-The first 3 weeks we only learned about the backend, and the last week we had to combine it with the frontend both in design and validation.
-In our solution we also had to make an admin page for our internal bank - which could approve loans, block users and transfer money to customers.
+
+Primarily we have been focusing on making API'S in PHP and connecting them with AJAX in javascript to update the information without reloading the browser.   
+
+We used a local json file as database for learning purposes of using javascript with objects.   
+The first 3 weeks we only learned about the backend, and the last week we had to combine it with the frontend both in design and validation.  
+
+In our solution we also had to make an admin page for our internal bank - which could approve loans, block users and transfer money to customers.  
 
 ---
 
