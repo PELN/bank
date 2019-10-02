@@ -30,9 +30,9 @@ To login you have to signup first.
 
 You will receive an e-mail with a link to activate your account. (This might take some time - but you can set the 'active' in the json file to 1, and then you are able to login)
 
-If you make another user, you can try to send money to that user's phone number.
+If you make another user, you can try to send money to that user's phone number.  
 You might have to set the balance in the json file to an amount. 
 
-Check the admin page by logging in with: 
-Phone number: 30000000 
-Password: 1234
+Check the admin page by logging in with:   
+Phone number: 30000000   
+Password: 1234 . 
