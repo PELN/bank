@@ -1,0 +1,103 @@
+#accounts.page{
+    position: absolute;
+    /* top: 75px; left: 0px; */
+    padding: 20px 8%;
+    /* display: none; */
+}
+
+#accounts{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 40px;
+    grid-template-areas: 
+    "create accounts"
+    "apply loans"
+}
+
+#createAccount{
+    background-color: #E7F1F7;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    width: 30vw;
+    padding: 20px 20px 20px 20px;
+    grid-area: create;
+}
+
+#frmCreateAccount{
+    display: grid; 
+    justify-items: center; 
+    align-items: center;
+    width: 30vw;
+    height: 35vh;
+    border-radius: 15px;
+    padding: 20px 0px 20px 0px;
+}
+
+#accountsContainer{
+    /* border: 2px solid rgb(44, 44, 141); */
+    grid-area: accounts;
+    background-color: #E7F1F7;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    width: 50vw;
+    height: auto;
+    padding: 20px 20px 20px 20px;
+}
+
+#applyForLoan{
+    background-color: #E7F1F7;
+    grid-area: apply;
+    display: grid; 
+    justify-items: center; 
+    align-items: center;
+    width: 30vw;
+    height: 35vh;
+    padding: 20px 0px 20px 0px;
+}
+
+#frmApplyForLoan{
+    display: grid; 
+    justify-items: center; 
+    align-items: center;
+    width: 30vw;
+    height: 30vh;
+    border-radius: 15px;
+    padding: 20px 0px 20px 0px;
+}
+
+
+#accountsContainer thead {
+    background-color:#19426F;
+    color:white;
+}
+
+#accountsContainer td {
+    background-color: rgba(135, 147, 182, 0.199);
+    padding: 5px 27px 10px 20px
+
+}
+
+#loansContainer{
+    grid-area: loans;
+    background-color: #E7F1F7;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    width: 50vw;
+    height: auto;
+    padding: 20px 20px 20px 20px;
+}
+
+#loansContainer > div {
+    border: 2px solid rgba(252, 252, 252, 0.664);
+    box-shadow: 6px 8px 16px -10px rgba(0,0,0,0.75);
+    background-color: rgba(255, 255, 255, 0.712);
+    padding: 20px 20px 20px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px;
+}
+

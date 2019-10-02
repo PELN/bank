@@ -1,0 +1,121 @@
+{
+    "data": {
+        "30000000": {
+            "name": "admin",
+            "lastName": "ad",
+            "email": "admin@a.com",
+            "password": "$2y$10$CxPhg1RnJzBUP2Oa8VpaD.oPVaj7fQOJ7ff7haiCHF4xP8V6l8kia",
+            "cpr": "2299887766",
+            "balance": 99999599,
+            "active": 1,
+            "iLoginAttemptsLeft": 0,
+            "iLastLoginAttempt": 1556978972,
+            "activationKey": "admin@a.com5c7139a87dc41",
+            "accounts": {},
+            "transactions": {},
+            "transactionsNotRead": {},
+            "loans": {},
+            "creditcard": {
+                "creditcardNumber": null,
+                "cvv": null,
+                "expirationMonth": null,
+                "expirationYear": null,
+                "cardType": null
+            },
+            "creditcardActive": 0,
+            "admin": 1
+        },
+        "30111111": {
+            "name": "pernille",
+            "lastName": "lee",
+            "email": "pe@pe.dk",
+            "password": "$2y$10$.j3jRxEK8gXHg4pMyYy17ewqSPTZ65AtWW3BLXArzVPA8pbI22qV2",
+            "cpr": "0203998877",
+            "balance": 1660,
+            "active": true,
+            "iLoginAttemptsLeft": 3,
+            "iLastLoginAttempt": 0,
+            "activationKey": "pernille@gmail.com5c7139e2262ad",
+            "accounts": {
+                "5c71566d8bfb3": {
+                    "accountName": "another",
+                    "accountType": "savings",
+                    "balance": 0,
+                    "currency": "euro"
+                },
+                "5c71ae861f184": {
+                    "accountName": "1292913",
+                    "accountType": "lkdnlg",
+                    "balance": 0,
+                    "currency": "dkk"
+                }
+            },
+            "transactions": {
+                "5c7146e42eb3e": {
+                    "date": "Sat-23-Feb-2019",
+                    "amount": "20",
+                    "name": "AA",
+                    "lastName": "AAA",
+                    "fromPhone": "30111111",
+                    "message": "her"
+                }
+            },
+            "transactionsNotRead": {
+                "5c7146e42eb3e": {
+                    "date": "Sat-23-Feb-2019",
+                    "amount": "20",
+                    "name": "AA",
+                    "lastName": "AAA",
+                    "fromPhone": "30111111",
+                    "message": "her"
+                }
+            },
+            "loans": {
+                "5c715298cfe14": {
+                    "amount": "20000",
+                    "comment": "new car",
+                    "active": 1
+                },
+                "5c7154fad60b3": {
+                    "amount": "1000000",
+                    "comment": "c2",
+                    "active": -1
+                }
+            },
+            "creditcard": {
+                "creditcardNumber": null,
+                "cvv": null,
+                "expirationMonth": null,
+                "expirationYear": null,
+                "cardType": null
+            },
+            "creditcardActive": 0,
+            "admin": 0
+        },
+        "30222222": {
+            "name": "benny",
+            "lastName": "lenny",
+            "email": "benny@andersen.dk",
+            "password": "$2y$10$UUBDbDGZb4jqjLsvpLvU4Oku9CC4qZQImrx6Naso84Z9TvfyMPaWC",
+            "cpr": "0203998877",
+            "balance": 8000,
+            "active": 1,
+            "iLoginAttemptsLeft": 2,
+            "iLastLoginAttempt": 1554209316,
+            "activationKey": "benny@andersen.dk5c7647114478f",
+            "accounts": {},
+            "transactions": {},
+            "transactionsNotRead": {},
+            "loans": {},
+            "creditcard": {
+                "creditcardNumber": null,
+                "cvv": null,
+                "expirationMonth": null,
+                "expirationYear": null,
+                "cardType": null
+            },
+            "creditcardActive": 0,
+            "admin": 0
+        }
+    }
+}

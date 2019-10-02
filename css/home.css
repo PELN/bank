@@ -1,0 +1,103 @@
+#home{
+    background-image: url(../images/building.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+  }
+
+
+  #sellingPoints {
+    width: 70vw;
+    background-color:#19426F;
+    /* background-color: rgba(25, 67, 111, 0.842); */
+    /* background-color: rgba(255, 255, 255, 0.63); */
+    /* background-color: rgba(2, 121, 201, 0.678); */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    padding: 20px 20px 20px 20px;
+    
+  }
+
+  h3{
+    /* color: #19426F; */
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+  }
+
+  
+  .sellingPointIcon{
+    width: 40px;
+    margin-left: 30px;
+  }
+
+  .pointBox{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    /* grid-template-columns: 1fr 1fr; */
+  }
+
+
+.fa-piggy-bank, .fa-money-check, .fa-exchange-alt, .fa-hand-holding-usd{
+    color:white;
+    font-size: 40px;
+    padding: 5px;
+}
+.iconBox{
+    text-align: center;
+}
+
+.fa-monero{
+    font-size: 50px;
+}
+
+
+#welcomeBox{
+    width:70vw;
+    height: 60vh;
+    background-color: white;
+    display: grid;
+    justify-content: center;
+}
+
+#knowBoxes{
+    width: 50vw;
+    height: 35vh;
+    /* border: 2px solid red; */
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+}
+
+.knowBox{
+    /* border: 2px solid blue; */
+    display: grid;
+    padding: 20px;
+    background-color: #E7F1F7;
+    color: #19426F;
+}
+
+button{
+    border-radius: 30px;
+    height: 40px;
+    width: 120px;
+    margin-top: 10px;
+    background: linear-gradient(#009DDC,rgb(2, 132, 184));
+    color: white;
+    padding:10px;
+    border-style: none;
+}
+
+h4{
+    padding-bottom: 10px;
+}
+
+button:hover{
+    box-shadow: 1px 3px 38px -8px rgba(0, 0, 0, 0.555);
+    transition: .2s;
+    cursor: pointer;
+}

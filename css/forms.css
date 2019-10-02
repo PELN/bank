@@ -1,0 +1,85 @@
+#signup, #login{
+    display: grid; 
+    justify-items: center; 
+    align-items: center;
+    width: 100vw; 
+    height: 70vh; 
+}
+
+.formContainer{
+    display: grid; 
+    justify-items: center; 
+    align-items: center;
+}
+
+#frmSignup {
+    display: grid; 
+    justify-items: center; 
+    align-items: center;
+    width: 60vw;
+    height: 60vh;
+    background-color: #19426F;
+    box-shadow: 10px 10px 53px -6px rgba(0, 0, 0, 0.637);
+    border-radius: 15px;
+    padding: 50px 20px 50px 20px;
+    grid-template-columns: 1fr 1fr;
+}
+
+#frmLogin{
+    display: grid; 
+    justify-items: center; 
+    align-items: center;
+    width: 40vw;
+    height: 35vh;
+    background-color: #19426F;
+    box-shadow: 10px 10px 53px -6px rgba(0, 0, 0, 0.637);
+    border-radius: 15px;
+    padding: 40px 0px 40px 0px;
+}
+
+textarea, input { outline: none; }
+
+input[type=text], input[type=email] {
+    border-radius: 25px;
+    height: 40px;
+    width: 250px;
+    border: none;
+    padding: 10px 10px 10px 10px;
+}
+
+.frmButtons {
+    border-radius: 25px;
+    height: 40px;
+    width: 250px;
+    border: none;
+    padding: 10px 10px 10px 10px;
+}
+.frmButtons:hover{
+    opacity: 0.7;
+    transition: .3s;
+}
+
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+
+input[name=txtForgotPhone]{
+    border: 2px solid grey;
+    height: 40px;
+}
+
+#forgotPassword{
+    margin-top: 40px;
+}
+
+#forgotBtn {
+    /* border: 2px solid grey; */
+    background: linear-gradient(#009DDC,rgb(2, 132, 184));
+    color: white;
+    /* height: 33px; */
+    height: 40px;
+    width: 220px;
+}

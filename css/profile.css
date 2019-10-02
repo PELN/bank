@@ -1,0 +1,118 @@
+
+.page{
+    position: absolute;
+    top: 75px; left: 0px;
+    padding: 20px 15%;
+    display: none;
+}
+
+#profile{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 40px;
+    grid-template-areas: 
+    "info transfer"
+    "main main"
+}
+
+#infoContainer{
+    background-color: #E7F1F7;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    width: 30vw;
+    padding: 20px 20px 20px 20px;
+    grid-area: info;
+}
+
+#creditcardInformation{
+    margin-top: 20px !important;
+}
+
+#transferContainer{
+    /* background-color: rgba(51, 102, 204, 0.151); */
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    width: 30vw;
+    /* padding: 20px 20px 20px 20px; */
+    grid-area: transfer;
+}
+
+#transactionsContainer{
+    background-color: #E7F1F7;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    width: 70vw;
+    padding: 20px 10px 20px 10px;
+    grid-area: main;
+}
+
+#transactionsContainer td{
+    padding: 5px 10px 10px 20px
+}
+
+#transactionsContainer thead {
+    background-color:#19426F;
+    color: white;
+}
+
+#transactionsContainer td {
+    background-color: rgba(135, 147, 182, 0.199);
+}
+
+#frmTransfer{
+    display: grid; 
+    justify-items: center; 
+    align-items: center;
+    width: 30vw;
+    height: 35vh;
+    background-color:#19426F;
+    box-shadow: 10px 10px 53px -6px rgba(0,0,0,0.75);
+    border-radius: 15px;
+    padding: 20px 0px 20px 0px;
+}
+
+.frmButtons {
+    border-radius: 25px!important;
+    height: 40px!important;
+    width: 250px;
+    border: none;
+    padding: 10px 10px 10px 10px;
+    background: linear-gradient(#009DDC,rgb(2, 132, 184));
+    color: white;
+}
+.frmButtons:hover{
+    opacity: 0.7;
+    transition: .3s;
+    box-shadow: 1px 3px 38px -8px rgba(0, 0, 0, 0.555);
+}
+
+textarea, input { outline: none; }
+
+input[type=text], input[type=email] {
+    border-radius: 25px!important;
+    /* height: 30px!important; */
+    width: 250px;
+    border: none;
+    padding: 10px 10px 10px 10px;
+}
+
+#balance{
+    font-size: 18px;
+    font-weight: 600;
+    color: #19426F;
+    background-color: #E7F1F7;
+    padding: 20px 20px 20px 20px;
+    display: grid;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#lblBalance{
+    display: grid;
+    justify-content: center;
+}
+

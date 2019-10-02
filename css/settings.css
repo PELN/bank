@@ -1,0 +1,176 @@
+#settings.page{
+    position: absolute;
+    top: 75px; left: 0px;
+    padding: 20px 18% !important;
+    /* display: none; */
+}
+
+.frmButtons {
+    border-radius: 15px;
+    height: 30px;
+    width: 250px;
+    border: none;
+    padding: 10px 10px 10px 10px;
+}
+.frmButtons:hover{
+    opacity: 0.7;
+    transition: .3s;
+}
+
+textarea, input { outline: none; }
+
+input[type=text]{
+    border-radius: 25px;
+    height: 40px;
+    width: 250px;
+    border: none;
+    padding: 10px 10px 10px 10px;
+}
+
+#settings{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 40px;
+    grid-template-areas: 
+    "info registerCard"
+    "password phone"
+    "email block"
+}
+
+#updateEmail{
+    background-color: #E7F1F7;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    width: 30vw;
+    padding: 20px 20px 20px 20px;
+    grid-area: email;
+}
+
+#updatePassword{
+    background-color: #E7F1F7;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    width: 30vw;
+    padding: 20px 20px 20px 20px;
+    grid-area: password;
+}
+
+#updatePhone{
+    background-color: #E7F1F7;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    width: 30vw;
+    padding: 20px 20px 20px 20px;
+    grid-area: phone;
+}
+
+#frmUpdatePassword{
+    display: grid; 
+    justify-items: center; 
+    align-items: center;
+    width: 30vw;
+    height: 35vh;
+    /* background-color:#3366CC; */
+    /* box-shadow: 10px 10px 53px -6px rgba(0,0,0,0.75); */
+    border-radius: 15px;
+    padding: 20px 0px 20px 0px;
+}
+
+#frmUpdatePhone{
+    display: grid; 
+    justify-items: center; 
+    align-items: center;
+    width: 30vw;
+    height: 35vh;
+    border-radius: 15px;
+    padding: 20px 0px 20px 0px;
+}
+
+#frmUpdateEmail{
+    display: grid; 
+    justify-items: center; 
+    align-items: center;
+    width: 30vw;
+    height: 35vh;
+    border-radius: 15px;
+    padding: 20px 0px 20px 0px;
+}
+
+#infoBox{
+    background-color: #E7F1F7;
+    display: grid; 
+    justify-items: center; 
+    align-items: center;
+    width: 30vw;
+    height: auto;
+    grid-area: info;
+    padding: 20px 0px 20px 0px;
+}
+
+h3{
+    display: grid;
+    justify-content: center;
+}
+
+#creditcardContainer{
+    background-color: #E7F1F7;
+    display: grid; 
+     justify-content: center;
+    align-content: center;
+    width: 30vw;
+    padding: 20px 20px 20px 20px;
+    grid-area: registerCard;
+}
+
+#frmRegisterCreditcard{
+    display: grid; 
+    justify-items: center; 
+    align-items: center;
+    width: 30vw;
+    height: 35vh;
+    border-radius: 15px;
+    /* padding: 0px 0px 0px 0px; */
+}
+
+img.creditcard{
+    width: 45px;
+    padding-left: 10px;
+}
+
+
+#frmBlockCard{
+    display: grid; 
+    justify-items: center; 
+    align-items: center;
+    width: 30vw;
+    height: 35vh;
+    border-radius: 15px;
+    padding: 20px 0px 20px 0px;
+}
+
+
+#blockCard{
+    background-color: #E7F1F7;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    width: 30vw;
+    padding: 20px 20px 20px 20px;
+    grid-area: block;
+}
+
+#settings #creditcardInformation{
+    padding-top: 20px;
+    /* display: grid;
+    justify-items: center;
+    align-items: center; */
+}
+
+#creditcardInformation h3, #infoContainer h3{
+    display: grid;
+    justify-content: left;
+}

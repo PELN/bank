@@ -1,0 +1,113 @@
+#profile{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100vw;
+    grid-gap: 100px;
+}
+
+
+#accounts.page{
+    padding: 20px 8%;
+}
+
+#view-customers > div{
+    margin-bottom: 20px !important;
+    border: 2px solid rgba(252, 252, 252, 0.664);
+    box-shadow: 6px 8px 16px -10px rgba(0,0,0,0.75);
+    background-color: rgba(255, 255, 255, 0.712);
+    padding: 20px 20px 20px 20px !important;
+}
+
+#view-customers{
+    background-color: #E7F1F7;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+    justify-content: center; 
+    align-content: center;
+    width: 85vw;
+    height: auto;
+    padding: 20px 20px 20px 20px;
+}
+
+
+#activity.page{
+    padding: 20px 8%;
+}
+
+
+#loansHistory{
+    background-color: #E7F1F7;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    width: 85vw;
+    height: auto;
+    padding: 20px 20px 20px 20px;
+}
+#loansHistory > div {
+    border: 2px solid rgba(252, 252, 252, 0.664);
+    box-shadow: 6px 8px 16px -10px rgba(0,0,0,0.75);
+    background-color: rgba(255, 255, 255, 0.712);
+    padding: 20px 20px 20px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin: 10px;
+}
+
+
+
+#frmAdminTransfer{
+    display: grid; 
+    justify-items: center; 
+    align-items: center;
+    width: 30vw;
+    height: 35vh;
+    background-color:#19426F;
+    box-shadow: 10px 10px 53px -6px rgba(0,0,0,0.75);
+    border-radius: 15px;
+    padding: 20px 0px 20px 0px;
+}
+
+.frmButtons {
+    border-radius: 25px!important;
+    height: 40px!important;
+    width: 250px;
+    border: none;
+    padding: 10px 10px 10px 10px;
+    background: linear-gradient(#009DDC,rgb(2, 132, 184));
+    color: white;
+}
+.frmButtons:hover{
+    opacity: 0.7;
+    transition: .3s;
+    box-shadow: 1px 3px 38px -8px rgba(0, 0, 0, 0.555);
+}
+
+textarea, input { outline: none; }
+
+input[type=text], input[type=email] {
+    border-radius: 25px!important;
+    /* height: 30px!important; */
+    width: 250px;
+    border: none;
+    padding: 10px 10px 10px 10px;
+}
+
+#balance{
+    font-size: 18px;
+    font-weight: 600;
+    color: #19426F;
+    background-color: #E7F1F7;
+    padding: 20px 20px 20px 20px;
+    display: grid;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+#lblBalance{
+    display: grid;
+    justify-content: center;
+}
