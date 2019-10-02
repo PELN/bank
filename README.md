@@ -29,5 +29,6 @@ You will receive an e-mail with a link to activate your account. (This might tak
 If you make another user, you can try to send money to that user's phone number.
 You might have to set the balance in the json file to an amount. 
 
-Check the admin page by logging in with the phone number: 30000000
-You have to change the password in the json file
+Check the admin page by logging in with: 
+Phone number: 30000000 
+Password: 1234
