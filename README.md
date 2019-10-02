@@ -35,4 +35,4 @@ You might have to set the balance in the json file to an amount.
 
 Check the admin page by logging in with:   
 Phone number: 30000000   
-Password: 1234 . 
+Password: 1234  
