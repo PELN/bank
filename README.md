@@ -4,9 +4,7 @@ Case: Develop a fullstack bank system
 
 Subject: Web development  
 Year: 2019  
-Tools: HTML, CSS, PHP, Javascript, jQuery, AJAX, MAMP  
-Solution: [http://pennylee.dk/bank/index]  
-Documentation/Report: [http://peleno.net/portfolio/imgs/Web%20dev.%20exam%202019.pdf]  
+Tools: HTML, CSS, PHP, Javascript, jQuery, AJAX, MAMP
 
 ---
 
